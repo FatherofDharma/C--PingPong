@@ -28,6 +28,10 @@ class PingPong
 
   static void PlayPingPong()
   {
+    Console.WriteLine("Please enter a number greater than 1.");
+    string number = Console.ReadLine();
+    int yourNumber = int.Parse(number);
+    Console.WriteLine("You entered " + yourNumber);
 
   }
 }
